@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1> Add New Page</h1>
+    <form method="POST" action="/handleUploadFile" enctype="multipart/form-data">
+        <div>
+            <label> Avatar</label>
+            <input type="file" name="img" />
+        </div>
+        <div>
+            <button type="submit">Save file</button>
+        </div>
+    </form> -->
+
+    <h2>Add New Product</h2>
+    <form method="POST" action="/api/v1/add-product" enctype="multipart/form-data">
+        <div>
+            <div>
+                <label> Name</label>
+                <input type="text" name="name" />
+            </div>
+            <div>
+                <label> Descpription</label>
+                <input type="text" name="description" />
+            </div>
+            <div>
+                <label> Image</label>
+                <input type="file" name="image" />
+            </div>
+            <div>
+                <label> brandId</label>
+                <input type="number" name="brandId" />
+            </div>
+            <div>
+                <label> Quantity</label>
+                <input type="number" name="quantity" />
+            </div>
+            <div>
+                <label> Price</label>
+                <input type="number" name="price" />
+            </div>
+        </div>
+        <div>
+            <button type="submit">Save file</button>
+        </div>
+    </form>
+</body>
+
+</html>
